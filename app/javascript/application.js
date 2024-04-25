@@ -6,6 +6,5 @@ import "controllers"
 import "jquery" 
 
 $(document).on('turbo:load',()=>{
-  console.log('loaded turbo links')
   $('.ui.dropdown').dropdown()
 })
