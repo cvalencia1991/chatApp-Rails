@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 ruby '3.3.0'
 
+gem 'byebug', '~> 9.0', '>= 9.0.6'
+
 gem 'hirb'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
@@ -29,11 +31,10 @@ gem 'stimulus-rails'
 gem 'jbuilder'
 gem 'jquery-rails'
 gem 'semantic-ui-sass'
-gem 'byebug', '~> 9.0', '>= 9.0.6'
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem 'kredis'
-
+gem 'redis'
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 
 gem 'bcrypt', '~> 3.1.7'
