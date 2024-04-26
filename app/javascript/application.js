@@ -17,3 +17,4 @@ $('.message .close').on('click', function() {
 ;
 })
 
+import "channels"
